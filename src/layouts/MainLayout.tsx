@@ -1,5 +1,5 @@
 /**
- * Основная оболочка публичной части приложения FLAG.
+ * Основная оболочка публичной части приложения Liner.
  * Содержит общую навигацию, подвал и область отображения страниц.
  */
 
@@ -12,14 +12,14 @@ export default function MainLayout() {
     <>
       <header>
         <nav>
-          <Link to={ROUTES.HOME}>FLAG</Link> <Link to={ROUTES.LOGIN}>Увійти</Link>{" "}
+          <Link to={ROUTES.HOME}>Liner</Link> <Link to={ROUTES.LOGIN}>Увійти</Link>{" "}
           <Link to={ROUTES.REGISTER}>Реєстрація</Link>
         </nav>
       </header>
 
       <Outlet />
 
-      <footer>© FLAG</footer>
+      <footer>© Liner</footer>
     </>
   );
 }

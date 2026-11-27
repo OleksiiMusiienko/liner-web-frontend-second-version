@@ -1,5 +1,5 @@
 /**
- * Интеграционные тесты приложения FLAG.
+ * Интеграционные тесты приложения Liner.
  * Проверяют маршрутизацию, навигацию
  * и отображение данных, полученных от Backend.
  */
@@ -40,7 +40,7 @@ describe("App routing", () => {
   it("renders the home page", async () => {
     renderApp();
 
-    expect(screen.getByRole("heading", { name: "FLAG" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Liner" })).toBeInTheDocument();
 
     expect(await screen.findByText("Backend status: ok")).toBeInTheDocument();
   });
