@@ -1,0 +1,11 @@
+/*
+ * Конфигурация TypeScript для тестового окружения Frontend.
+ * Наследует настройки приложения и поддержку алиасов.
+ */
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo"
+  },
+  "include": ["src", "tests"]
+}

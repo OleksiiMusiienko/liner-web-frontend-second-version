@@ -1,0 +1,13 @@
+/**
+ * Корневая конфигурация TypeScript.
+ * Объединяет конфигурации приложения,
+ * инструментов Node.js и тестового окружения.
+ */
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.test.json" }
+  ]
+}
